@@ -63,6 +63,7 @@ const config: Config = {
           routeBasePath: 'members',
           showReadingTime: true,
           postsPerPage: 'ALL',
+          blogSidebarTitle: 'Members',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
