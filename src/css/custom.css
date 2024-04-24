@@ -32,3 +32,22 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.sectionMain {
+  width: 100%;
+  height: 1283px;
+  flex-shrink: 0;
+  background-image: url(/static/img/background/mv.png);
+  background-size: cover;
+  background-position: 50% -40px;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  width: 100%;
+  height: 290px;
+  flex-shrink: 0;
+  background-image: url(/static/img/background/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
