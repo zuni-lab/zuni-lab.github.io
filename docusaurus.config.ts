@@ -58,16 +58,15 @@ const config: Config = {
             "https://github.com/zuni-lab/zuni-lab.github.io/tree/main",
         },
         blog: {
-          path: 'members',
+          path: './members',
           pageBasePath: 'members',
-          routeBasePath: 'members',
+          routeBasePath: '/members',
           showReadingTime: true,
           postsPerPage: 'ALL',
           blogSidebarTitle: 'Members',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/zuni-lab/zuni-lab.github.io/tree/main",
+            
         },
         theme: {
           customCss: "./src/css/custom.css",

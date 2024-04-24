@@ -60,16 +60,6 @@ export default function FooterWrapper(props: Props): JSX.Element {
                     ZSWAP
                   </Link>
                 </div>
-                <div className="flex items-center gap-2">
-                  <Link to="/projects/cex" className="text-blue-500 text-xl">
-                    CEX
-                  </Link>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Link to="/projects/dex" className="text-blue-500 text-xl">
-                    DEX
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

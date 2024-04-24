@@ -51,3 +51,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.margin-vert--md {
+  display: none;
+}
