@@ -9,7 +9,7 @@ export const Container = (props: {
     <div
       className={cx(
         styles.container,
-        "font-medium text-2xl mt-4",
+        "font-medium text-2xl mt-4 text-black",
         props.className
       )}
     >

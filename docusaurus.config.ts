@@ -55,7 +55,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/zuni-lab/zuni-lab.github.io/tree/main/projects",
+            "https://github.com/zuni-lab/zuni-lab.github.io/tree/main",
         },
         blog: {
           path: 'members',
@@ -97,7 +97,7 @@ const config: Config = {
         },
         { to: '/members', label: 'Members', position: 'left' },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/zuni-lab",
           label: "GitHub",
           position: "right",
         },
