@@ -20,7 +20,7 @@ const config: Config = {
   title: "ZUNI Lab",
   tagline:
     "Building innovative privacy-preserving solutions for the decentralized world.",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.svg",
 
   // Set the production url of your site here
   url: "https://zuni-lab.github.io",

@@ -1,12 +1,7 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-
-const features = [
-  "Polkadot, Substrate, Near, Solana, Ethereum, Cosmos, now Flow",
-  "Smart contract development",
-  "Dapp development",
-  "NFTs and decentralized marketplaces",
-];
+import { Container } from "../components/Containter";
+import { TechStack } from "../components/TechStack";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -23,45 +18,27 @@ export default function Home(): JSX.Element {
               Seeking the art in the decentrialized world 🚀
             </p>
           </div>
-          <div className="content px-24 mt-20">
+          <div className="content px-28 mt-20">
             <h1>About us</h1>
-            <div className="mt-8 font-medium text-xl flex flex-col items-center justify-center">
+            <Container>
               <p>
                 <span className="font-bold italic mr-2">ZUNI Laboratory</span>
-                is a pioneering research and development lab at the forefront of
-                art and technology. Our passion lies in delving into the
-                potential of decentralized technologies and creating innovative
-                applications that have a transformative impact on society.
+                is made up of engineers, researchers, and artists, all united by
+                a shared passion for leveraging the power of decentralized
+                technologies. We are committed to pushing the boundaries of
+                what's possible and creating applications that enrich and
+                enhance people's lives.
               </p>
-              <p>
-                Our diverse team comprises engineers, researchers, and artists,
-                all united by a shared passion for leveraging the power of
-                decentralized technologies. We are committed to pushing the
-                boundaries of what's possible and creating applications that
-                enrich and enhance people's lives.
-              </p>
-            </div>
+            </Container>
           </div>
-          <div className="content px-24 mt-20">
-            <h1>What we do</h1>
-            <div className="mt-8 font-medium text-xl my-2">
-              <p>
-                At our organization, we focus on researching and developing
-                cutting-edge web3 and blockchain applications that can help
-                bring about a more decentralized and transparent world. Some of
-                our key areas of focus include:
-              </p>
-              <ul className="list-disc list-inside font-semibold text-xl">
-                {features.map((feature) => (
-                  <li key={feature}>{feature}</li>
-                ))}
-              </ul>
-            </div>
+          <div className="content px-28 mt-20">
+            <h1>Tech stack</h1>
+            <TechStack />
           </div>
 
           <div className="content px-24 mt-16">
             <h1>Our Goals</h1>
-            <div className="font-medium text-xl my-2">
+            <div className="">
               <p>
                 Our primary goal is to build innovative applications that can
                 help drive the adoption of web3 and blockchain technologies. We
