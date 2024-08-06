@@ -23,14 +23,14 @@ export default function FooterWrapper(props: Props): JSX.Element {
               <div className="flex flex-col gap-2 mt-4">
                 <div className="flex items-center gap-2 mt-2">
                   <TeleSvg width="24" height="24" />
-                  <a href="https://t.me/david7oathan" className="text-blue-600">
-                    t.me/david7oathan
+                  <a href="https://t.me/bc0xdavid" className="text-blue-600">
+                    t.me/david
                   </a>
                 </div>
                 <div className="flex items-center gap-2 mt-2">
                   <DiscordSvg width="24" height="24" />
                   <a
-                    href="https://discord.gg/6VkkwFazT7"
+                    href="https://discord.gg/NhUfGfJwah"
                     className="text-blue-500"
                   >
                     discord.com/channels@zuni-lab
